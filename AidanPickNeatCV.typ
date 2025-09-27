@@ -153,7 +153,7 @@
       #list()[
         *Jazz drummer*; performances include *Royal Albert Hall* for Camden Youth Jazz Orchestra
       ][
-        *Winner* of Imperial College Jailbreak 2024
+        Awarded *music scholarship*
       ]
     ],
     align(left)[
