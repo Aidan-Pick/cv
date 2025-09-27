@@ -40,62 +40,68 @@
 #section("Education")
 #block(inset: 1em, fill: none)[
   #dated_experience("Imperial College London", "Oct 2023 - Jul 2027")
-  _MEng Computing - *Predicted First Class Honours (80.51%)*_
+  _MEng Computing - (Integrated Master's)_
   #list(
     indent: 1em,
   )[
-    *Year 1* - Introduction to Computer Systems; Introduction to Databases;
-    Introduction to Computer Architecture; Laboratory 1; Discrete
-    Mathematics; Logic and Reasoning; Graphs and Algorithms; Calculus; Linear
-    Algebra
+    Predicted *First Class Honours* (Overall Grade: *80.51%*)
   ][
-    *Year 2* - Algorithm Design and Analysis; Software Engineering Design; Probability and Statistics; Compilers; Computational Techniques; Laboratory 2; Models of Computation; Networks and Communications; Operating Systems
+    Relevant Coursework: Algorithms, Software Engineering Design, Operating Systems, Compilers, Networks, Databases
   ]
 
-  #dated_experience("University College School", "Sep 2018 - Jun 2023")
-  // #grid(
-  //   columns: (1.2fr, 1fr),
-  //   align(left)[
-  //     #list(indent: 0em)[
-  //       A levels = *A\*A\*A\*A* Maths, Further Maths, Physics, Chemistry
-  //     ][
-  //       GCSE - *10 9s*
-  //     ][
-  //       Placed in *top 10th percentile* in TMUA 2022
-  //     ][
-  //       Senior Maths Challenge *Gold Award*
-  //     ]
-  //   ],
-  //   align(left)[
-  //     #list(indent: 1em)[
-  //       Perse Coding Team Challenge - *Top in School*
-  //     ][
-  //       Senior Physics Challenge *Gold Award*
-  //     ][
-  //       *Top 5% globally* in Caribou Maths Competition
-  //     ][
-  //       Awarded *Music Scholarship*
-  //     ]
-  //   ],
-  // )
-  #list(indent: 1em)[
-    A levels - *A\*A\*A\*A* Maths, Further Maths, Physics, Chemistry
-  ]
-  // [
-  //   GCSE - *10 9s*
-  // ][
-  //   Placed in *top 10th percentile* in TMUA 2022
-  // ][
-  //   Senior Maths Challenge *Gold Award*
-  // ][
-  //   Perse Coding Team Challenge - *Top in School*
-  // ][
-  //   Senior Physics Challenge *Gold Award*
-  // ][
-  //   Ranked *top 5% globally* in Caribou Maths Competition
-  // ][
-  //   Awarded *Music Scholarship*
+
+  // #dated_experience("University College School", "Sep 2018 - Jun 2023")
+  // // #grid(
+  // //   columns: (1.2fr, 1fr),
+  // //   align(left)[
+  // //     #list(indent: 0em)[
+  // //       A levels = *A\*A\*A\*A* Maths, Further Maths, Physics, Chemistry
+  // //     ][
+  // //       GCSE - *10 9s*
+  // //     ][
+  // //       Placed in *top 10th percentile* in TMUA 2022
+  // //     ][
+  // //       Senior Maths Challenge *Gold Award*
+  // //     ]
+  // //   ],
+  // //   align(left)[
+  // //     #list(indent: 1em)[
+  // //       Perse Coding Team Challenge - *Top in School*
+  // //     ][
+  // //       Senior Physics Challenge *Gold Award*
+  // //     ][
+  // //       *Top 5% globally* in Caribou Maths Competition
+  // //     ][
+  // //       Awarded *Music Scholarship*
+  // //     ]
+  // //   ],
+  // // )
+  // #list(indent: 1em)[
+  //   A levels - *A\*A\*A\*A* Maths, Further Maths, Physics, Chemistry
   // ]
+  // // [
+  // //   GCSE - *10 9s*
+  // // ][
+  // //   Placed in *top 10th percentile* in TMUA 2022
+  // // ][
+  // //   Senior Maths Challenge *Gold Award*
+  // // ][
+  // //   Perse Coding Team Challenge - *Top in School*
+  // // ][
+  // //   Senior Physics Challenge *Gold Award*
+  // // ][
+  // //   Ranked *top 5% globally* in Caribou Maths Competition
+  // // ][
+  // //   Awarded *Music Scholarship*
+  // // ]
+]
+
+#section("Technical Skills")
+#block(inset: 1em)[
+  *Languages*: Kotlin, Java, Python, C, Haskell, SQL, TypeScript, JavaScript, Typst, Bash, Scala, \
+  *Technologies*: CI/CD, Supabase, Git, Arduino IDE, React Native, PostgreSQL,
+  GDB, Expo, Gradle, Trello, Linux, Spring, Kafka, Maven, Rest APIs \
+  *Concepts*: Machine Learning, Problem Conditioning and Stability, Linear Algebra, Embedded Systems, Test Driven Development
 ]
 
 #section("Experience")
@@ -217,7 +223,10 @@
 
 #section("Extracurricular & Certifications")
 #block(inset: 1em, fill: none)[
-  #dated_experience("JPMorgan Software Engineering Job Simulation on Forage", "Aug 2025")
+  #dated_experience(
+    "JPMorgan Software Engineering Job Simulation on Forage",
+    "Aug 2025",
+  )
   Developed a Spring Boot microservice handling financial transactions
   using Kafka for event processing, integrating external
   REST APIs, and exposing custom endpoints; demonstrated strong skills in Java,
@@ -238,8 +247,7 @@
       ][
         Imperial College *2nd Team Squash*
       ]
-    ]
-
+    ],
   )
 
   // #list(indent: 1em)[
@@ -255,11 +263,4 @@
   // ]
 ]
 
-#section("Technical Skills")
-#block(inset: 1em)[
-  *Languages*: Kotlin, Java, Python, C, Haskell, SQL, TypeScript, JavaScript, Typst, Bash, Scala, \
-  *Technologies*: CI/CD, Supabase, Git, Arduino IDE, React Native, PostgreSQL,
-  GDB, Expo, Gradle, Trello, Linux, Spring, Kafka, Maven, Rest APIs \
-  *Concepts*: Machine Learning, Problem Conditioning and Stability, Linear Algebra, Embedded Systems, Test Driven Development
-]
 
