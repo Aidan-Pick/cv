@@ -48,138 +48,33 @@
   ][
     Relevant Coursework: Algorithms, Software Engineering Design, Operating Systems, Compilers, Networks, Databases
   ]
-
-
-  // #dated_experience("University College School", "Sep 2018 - Jun 2023")
-  // // #grid(
-  // //   columns: (1.2fr, 1fr),
-  // //   align(left)[
-  // //     #list(indent: 0em)[
-  // //       A levels = *A\*A\*A\*A* Maths, Further Maths, Physics, Chemistry
-  // //     ][
-  // //       GCSE - *10 9s*
-  // //     ][
-  // //       Placed in *top 10th percentile* in TMUA 2022
-  // //     ][
-  // //       Senior Maths Challenge *Gold Award*
-  // //     ]
-  // //   ],
-  // //   align(left)[
-  // //     #list(indent: 1em)[
-  // //       Perse Coding Team Challenge - *Top in School*
-  // //     ][
-  // //       Senior Physics Challenge *Gold Award*
-  // //     ][
-  // //       *Top 5% globally* in Caribou Maths Competition
-  // //     ][
-  // //       Awarded *Music Scholarship*
-  // //     ]
-  // //   ],
-  // // )
-  // #list(indent: 1em)[
-  //   A levels - *A\*A\*A\*A* Maths, Further Maths, Physics, Chemistry
-  // ]
-  // // [
-  // //   GCSE - *10 9s*
-  // // ][
-  // //   Placed in *top 10th percentile* in TMUA 2022
-  // // ][
-  // //   Senior Maths Challenge *Gold Award*
-  // // ][
-  // //   Perse Coding Team Challenge - *Top in School*
-  // // ][
-  // //   Senior Physics Challenge *Gold Award*
-  // // ][
-  // //   Ranked *top 5% globally* in Caribou Maths Competition
-  // // ][
-  // //   Awarded *Music Scholarship*
-  // // ]
 ]
 
 #section("Technical Skills")
 #block(inset: 1em)[
-  *Languages*: Kotlin, Java, Python, C, Haskell, SQL, TypeScript, JavaScript, Typst, Bash, Scala, \
-  *Technologies*: CI/CD, Supabase, Git, Arduino IDE, React Native, PostgreSQL,
-  GDB, Expo, Gradle, Trello, Linux, Spring, Kafka, Maven, Rest APIs \
-  *Concepts*: Machine Learning, Problem Conditioning and Stability, Linear Algebra, Embedded Systems, Test Driven Development
-]
-
-#section("Experience")
-#block(inset: 1em, fill: none)[
-  #dated_experience("InvestIN Education", "Aug 2022")
-  _Engineering Summer Experience_
-  #list(indent: 1em)[
-    *Collaborated* with a team of four peers to create an obstacle avoiding robot
-  ][
-    *Enhanced presentation skills* by delivering on ethics surrounding AI and
-    Robotics to industry professionals
-  ][
-    *Awarded 1st place* for material cost and *most innovative design* in an
-    engineering contest, recognized for *problem-solving skills*
-  ]
+  *Languages*: Python, Java, C, Scala, Kotlin, Typescript/Javascript, SQL, Haskell, Bash \
+  *Technologies*: React Native, Spring Boot, PostgreSQL, Git, CI/CD, Kafka, Supabase, Gradle, Maven, Linux \
+  *Developer Tools*: GDB, QEMU, Expo, Trello, Arduino IDE, Neovim, Tmux
 ]
 
 #section("Projects")
 #block(inset: 1em, fill: none)[
-
-  // #dated_project(
-  //   "ARMv8 AArch64 Assembler and Emulator",
-  //   "C, GDB, Valgrind, Bash",
-  //   "June 2024",
-  // )
-  // #list(indent: 1em)[
-  //   *Developed a AArch64 Emulator* to simulate binary execution on a Raspberry
-  //   Pi, supporting a subset of A64 RISC
-  // ][
-  //   *Engineered a two-pass Assembler* to convert assembly into binaries for A64
-  //   instruction processing by the emulator
-  // ][
-  //   *Implemented a Morse Code Encoder* in assembly, converting English to
-  //   signals on an LED using the emulator
-  // ][
-  //   *Gained expertise* in ARMv8-A, memory management, ADTs in C, and
-  //   *team-based version control with Git*
-  // ][
-  //   *Achieved a project score of 95%*, delivering a presentation to the group
-  //   supervisor with technical documentation and live demonstrations
-  // ]
-
-  // *Cryptic Crossword Solver* | _Haskell - Functional Programming_
-  // #list(indent: 1em)[
-  //   *Implemented a cryptic crossword solver*, incorporating advanced *text
-  //   processing* and *parsing techniques*
-  // ][
-  //   *Developed recursive functions* for cleaning and manipulating clue text, and
-  //   generating possible clue parses
-  // ][
-  //   Created parsing rules for various clue types using *pattern matching*,
-  //   enabling comprehensive clue interpretation
-  // ][
-  //   Implemented evaluation and solution functions, comparing clues against a
-  //   thesaurus and *provided valid solutions*
-  // ][
-  //   *Developed functional programming skills*, particularly in *thinking
-  //   recursive*
-  // ]
-
   #dated_project(
     "PintOS Operating System",
     "C, GDB, QEMU",
     "Oct 2024 - Nov 2024",
   )
   #list(indent: 1em)[
-    *Engineered and implemented key OS functionality*, including scheduling, process
-    execution and virtual memory
+    *Engineered a preemptive priority scheduler* with semaphore-based
+    synchronization and *priority inheritance*, resolving priority inversion and
+    ensuring reliable execution of time-critical processes
   ][
-    Gained deep understanding of *synchronization mechanisms* by addressing *concurrency issues* like *priority inversion*
-  ][
-    *Improved memory efficiency* by *lazy-loading* executables and adding *read-only
-    page sharing* reducing memory waste
+    *Optimized memory usage* by implementing *lazy loading* for executables and
+    *read-only page sharing*, *reducing process memory* footprint.
   ][
     Mastered *low-level debugging techniques* by effectively locating and debugging problems using *GDB*
   ][
-    *Achieved a project score of 86%*, and *developed communication skill* by
-    *articulating design decisions* during code reviews with professors
+    *Achieved a project score of 86%* based on functionality, code quality, and design articulation during code reviews
   ]
   #dated_project(
     "WACC Compiler",
@@ -187,12 +82,13 @@
     "Jan 2025 - Mar 2025",
   )
   #list(indent: 1em)[
-    Built a *fully functional compiler* for a C-like language (WACC) in *Scala* from scratch in a *team of four*
+    Architected a *fully functional compiler* for a C-like language (WACC) in *Scala* from scratch in a *team of four*
   ][
-    Developed a modular frontend using *Parsley*, performing *syntax and semantic analysis* with *top-down type
-    checking*
+    Developed a modular frontend with a *parser-combinator library* (Parsley)
+    for *syntax analysis* and top-down *type checking for semantic validation*
   ][
-    Implemented backend translating a *Typed AST* to *x86-64 assembly* via an IR, managing memory and runtime errors
+    Engineered backend to translate *Typed AST* to x86-64,
+    managing *stack memory*, *registers* and *runtime error handling*
   ][
     Improved efficiency by introducing
     *constant folding*, *constant propagation*, and *control flow
@@ -221,24 +117,43 @@
   ]
 ]
 
-#section("Extracurricular & Certifications")
+#section("Experience & Leadership")
 #block(inset: 1em, fill: none)[
   #dated_experience(
     "JPMorgan Software Engineering Job Simulation on Forage",
     "Aug 2025",
   )
-  Developed a Spring Boot microservice handling financial transactions
-  using Kafka for event processing, integrating external
-  REST APIs, and exposing custom endpoints; demonstrated strong skills in Java,
-  JPA/H2, and distributed system design.
+  #list(indent: 1em)[
+    Developed a *Spring Boot microservice* to handle fincial data streams,
+    processing events with *Kafka* and integrating external *REST APIs*
+  ][
+    *Exposed custom REST endpoints* for data retrival and implemented data
+    persistence using *Java Persistence API* (JPA) with a *H2 in-memory
+    database*
+  ]
+  #dated_experience("Imperial College Jailbreak Winner", "Jun 2024")
+  #list(indent: 1em)[
+    Co-led a team to victory in a *university-wide competition*, traveling the
+    *furthest distance* from campus in 36 hours with *no money*, demonstrating
+    *resourcefulness* and *strategic planning*
+  ]
+  #dated_experience("InvestIN Education - Engineering summer Experience", "Aug 2022")
+  #list(indent: 1em)[
+    Secured *1st place* in a team-based *engineering contest* for designing and
+    building the most *innovative and cost-effective* obstacle-avoiding robot
+  ]
+]
 
+
+#section("Extracurricular")
+#block(inset: 1em, fill: none)[
   #grid(
     columns: (1fr, 1fr),
     align(left)[
       #list()[
-        *Jazz drummer*; performances include *Royal Albert Hall* for Camden Youth Jazz Orchestra
+        *Jazz drummer*; performances include *Royal Albert Hall* for Camden Youth Jazz Orchestra and Imperial Big Band
       ][
-        *Winner* of Imperial College Jailbreak 2024
+        Awarded *music scholarship*
       ]
     ],
     align(left)[
@@ -249,18 +164,7 @@
       ]
     ],
   )
-
-  // #list(indent: 1em)[
-  //   *Jazz drummer*; performances include *Royal Albert Hall* for Camden Youth Jazz Orchestra
-  // ][
-  //   Member of *Imperial College Big Band*
-  // ][
-  //   *Ranked 3rd* in U19 Butterfly *National* School Team Table Tennis Championship
-  // ][
-  //   Imperial College *2nd Team Squash*
-  // ][
-  //   *Winner* of Imperial College Jailbreak 2024
-  // ]
 ]
+
 
 
