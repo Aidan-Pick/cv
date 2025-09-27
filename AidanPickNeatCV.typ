@@ -145,7 +145,7 @@
 ]
 
 
-#section("Extracurricular & Certifications")
+#section("Extracurricular")
 #block(inset: 1em, fill: none)[
   #grid(
     columns: (1fr, 1fr),
