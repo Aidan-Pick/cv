@@ -134,7 +134,7 @@
   #dated_experience("Imperial College Jailbreak Winner", "Jun 2024")
   #list(indent: 1em)[
     Co-led a team to victory in a *university-wide competition*, traveling the
-    *furthest distance* from campus in 36 with *no money*, demonstrating
+    *furthest distance* from campus in 36 hours with *no money*, demonstrating
     *resourcefulness* and *strategic planning*
   ]
   #dated_experience("InvestIN Education - Engineering summer Experience", "Aug 2022")
@@ -151,7 +151,7 @@
     columns: (1fr, 1fr),
     align(left)[
       #list()[
-        *Jazz drummer*; performances include *Royal Albert Hall* for Camden Youth Jazz Orchestra
+        *Jazz drummer*; performances include *Royal Albert Hall* for Camden Youth Jazz Orchestra and Imperial Big Band
       ][
         Awarded *music scholarship*
       ]
