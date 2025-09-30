@@ -70,7 +70,7 @@
     ensuring reliable execution of time-critical processes
   ][
     *Optimized memory usage* by implementing *lazy loading* for executables and
-    *read-only page sharing*, *reducing process memory* footprint.
+    *read-only page sharing*, *reducing process memory* footprint
   ][
     Mastered *low-level debugging techniques* by effectively locating and debugging problems using *GDB*
   ][
