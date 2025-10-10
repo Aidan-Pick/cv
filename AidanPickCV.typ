@@ -6,7 +6,7 @@
   paper: "a4",
   margin: (
     x: 1.2cm,
-    y: 1cm,
+    y: 1.4cm,
   ),
 )
 
@@ -20,7 +20,7 @@
   center,
   text(24pt, weight: "bold")[
     Aidan Pick \
-    #v(-0.8em)
+    #v(-0.4em)
     #text(
       size: 10pt,
       weight: "regular",
@@ -33,7 +33,7 @@
         "https://linkedin.com/in/aidan-pick-4b565b2b1",
       )[Aidan Pick]
     ]
-    #v(0.4em)
+    #v(0.6em)
   ],
 )
 
@@ -72,7 +72,7 @@
     *Optimized memory usage* by implementing *lazy loading* for executables and
     *read-only page sharing*, *reducing process memory* footprint
   ][
-    Honed *low-level debugging techniques* skills by effectively locating and debugging problems using *GDB*
+    Honed *low-level debugging skills* by effectively locating and debugging problems using *GDB*
   ][
     *Achieved a project score of 86%* based on functionality, code quality, and design articulation during code reviews
   ]
@@ -130,12 +130,6 @@
     *Exposed custom REST endpoints* for data retrival and implemented data
     persistence using *Java Persistence API* (JPA) with a *H2 in-memory
     database*
-  ]
-  #dated_experience("Imperial College Jailbreak Winner", "Jun 2024")
-  #list(indent: 1em)[
-    Co-led a team to victory in a *university-wide competition*, traveling the
-    *furthest distance* from campus in 36 hours with *no money*, demonstrating
-    *resourcefulness* and *strategic planning*
   ]
   #dated_experience("InvestIN Education - Engineering summer Experience", "Aug 2022")
   #list(indent: 1em)[
