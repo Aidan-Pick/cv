@@ -60,6 +60,24 @@
 #section("Projects")
 #block(inset: 1em, fill: none)[
   #dated_project(
+    "SEVA",
+    "TypeScript, JavaScript, Supabase, PostgreSQL, React Native, CI/CD, Gitlab Pages, Expo",
+    "May 2025 - Jun 2025",
+  )
+  #list(indent: 1em)[
+    Developed an app to *connect volunteers with local charities*, addressing the lack of accessible, short-term opportunities
+  ][
+    Enabled *cross-platform* capabilities using *React Native* (TypeScript/JavaScript), with *Expo* for instant hot reloading
+  ][
+    Integrated *Supabase* for backend with *real-time updates* via webhooks and *Row Level Security* for per-user control
+  ][
+    Automated deployment using *GitLab CI/CD*, building *APK releases with Gradle* and hosting them on *GitLab Pages*
+  ][
+    Conducted interviews with *charity coordinators and volunteers*, narrowing down on *pain points* to improve UX
+  ][
+    Delivered a 20-minute *live demo presentation* to judges from *Imperial College London* and the *Royal College of Art*, achieving a grade of *88%* for clarity, engagement, and technical depth
+  ]
+  #dated_project(
     "PintOS Operating System",
     "C, GDB, QEMU",
     "Oct 2024 - Nov 2024",
@@ -97,24 +115,6 @@
     Added support for *classes*, including fields, methods, and constructors,
     *enabling object-oriented* features in WACC
   ]
-  #dated_project(
-    "SEVA",
-    "TypeScript, JavaScript, Supabase, PostgreSQL, React Native, CI/CD, Gitlab Pages, Expo",
-    "May 2025 - Jun 2025",
-  )
-  #list(indent: 1em)[
-    Developed an app to *connect volunteers with local charities*, addressing the lack of accessible, short-term opportunities
-  ][
-    Enabled *cross-platform* capabilities using *React Native* (TypeScript/JavaScript), with *Expo* for instant hot reloading
-  ][
-    Integrated *Supabase* for backend with *real-time updates* via webhooks and *Row Level Security* for per-user control
-  ][
-    Automated deployment using *GitLab CI/CD*, building *APK releases with Gradle* and hosting them on *GitLab Pages*
-  ][
-    Conducted interviews with *charity coordinators and volunteers*, narrowing down on *pain points* to improve UX
-  ][
-    Delivered a 20-minute *live demo presentation* to judges from *Imperial College London* and the *Royal College of Art*, achieving a grade of *88%* for clarity, engagement, and technical depth
-  ]
 ]
 
 #section("Experience & Leadership")
@@ -137,7 +137,10 @@
     *furthest distance* from campus in 36 hours with *no money*, demonstrating
     *resourcefulness* and *strategic planning*
   ]
-  #dated_experience("InvestIN Education - Engineering summer Experience", "Aug 2022")
+  #dated_experience(
+    "InvestIN Education - Engineering summer Experience",
+    "Aug 2022",
+  )
   #list(indent: 1em)[
     Secured *1st place* in a team-based *engineering contest* for designing and
     building the most *innovative and cost-effective* obstacle-avoiding robot
