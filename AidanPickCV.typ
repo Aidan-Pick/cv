@@ -71,8 +71,8 @@
     Designed *rule-based filtering* system to selectively migrate bots and
     modules while dropping transient data
   ][
-    Implemented fail-safe *dry-run mode* as
-    preventing accidental data writes and *logging migration impact* before execution
+    Implemented a fail-safe *dry-run mode* to prevent accidental data writes
+    and *log migration impact* before execution
   ][
     Automated 3-step migration workflow into a *single inline command*, reducing
     manual data migration *time by hours*
