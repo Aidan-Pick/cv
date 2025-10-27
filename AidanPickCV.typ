@@ -57,6 +57,29 @@
   *Developer Tools*: GDB, QEMU, Expo, Trello, Arduino IDE, Neovim, Tmux
 ]
 
+#section("Work Experience")
+#block(inset: 0.8em, fill: none)[
+  #work_experience(
+    "Konnexsion",
+    "Sep 2025 - Oct 2025",
+    "Software Engineering Intern",
+  )
+  #list(indent: 1em)[
+    Built a *data migration tool* for *DynamoDB* in *Python*
+    migrating data from development to production environments
+  ][
+    Designed *rule-based filtering* system to selectively migrate bots and
+    modules while dropping transient data
+  ][
+    Implemented fail-safe *dry-run mode* as
+    preventing accidental data writes and *logging migration impact* before execution
+  ][
+    Automated 3-step migration workflow into a *single inline command*, reducing
+    manual data migration *time by hours*
+  ]
+]
+
+
 #section("Projects")
 #block(inset: 1em, fill: none)[
   #dated_project(
@@ -65,17 +88,13 @@
     "May 2025 - Jun 2025",
   )
   #list(indent: 1em)[
-    Developed an app to *connect volunteers with local charities*, addressing the lack of accessible, short-term opportunities
-  ][
-    Enabled *cross-platform* capabilities using *React Native* (TypeScript/JavaScript), with *Expo* for instant hot reloading
-  ][
-    Integrated *Supabase* for backend with *real-time updates* via webhooks and *Row Level Security* for per-user control
+    Built a *cross-platform* mobile app in a *team* to *connect volunteers with charities* using *React Native* and *Supabase*
   ][
     Automated deployment using *GitLab CI/CD*, building *APK releases with Gradle* and hosting them on *GitLab Pages*
   ][
     Conducted interviews with *charity coordinators and volunteers*, narrowing down on *pain points* to improve UX
   ][
-    Delivered a 20-minute *live demo presentation* to judges from *Imperial College London* and the *Royal College of Art*, achieving a grade of *88%* for clarity, engagement, and technical depth
+    Delivered a *live demo* and UX walkthrough to industry alligned judges, *achieving 88%* for engineering depth and clarity
   ]
   #dated_project(
     "PintOS Operating System",
@@ -83,16 +102,14 @@
     "Oct 2024 - Nov 2024",
   )
   #list(indent: 1em)[
-    *Engineered a preemptive priority scheduler* with semaphore-based
-    synchronization and *priority inheritance*, resolving priority inversion and
-    ensuring reliable execution of time-critical processes
+    *Designed and implemented a preemptive prioity scheduler* with robust *concurrency control* using *semaphores*
   ][
     *Optimized memory usage* by implementing *lazy loading* for executables and
-    *read-only page sharing*, *reducing process memory* footprint
+    *read-only page sharing*
   ][
     Honed *low-level debugging skills* by effectively locating and debugging problems using *GDB*
   ][
-    *Achieved a project score of 86%* based on functionality, code quality, and design articulation during code reviews
+    Attained a *project score of 86%* based on functionality, code quality, and design articulation during code reviews
   ]
   #dated_project(
     "WACC Compiler",
@@ -100,10 +117,11 @@
     "Jan 2025 - Mar 2025",
   )
   #list(indent: 1em)[
-    Architected a *fully functional compiler* for a C-like language (WACC) in *Scala* from scratch in a *team of four*
+    Architected a *fully functional compiler* for a C-like language (WACC) in
+    *Scala* from scratch in a *team of four*
   ][
-    Developed a modular frontend with a *parser-combinator library* (Parsley)
-    for *syntax analysis* and top-down *type checking for semantic validation*
+    Developed a modular frontend using *Parsley* for *syntax analysis* and
+    top-down *type checking for semantic validation*
   ][
     Engineered backend to translate *Typed AST* to x86-64,
     managing *stack memory*, *registers* and *runtime error handling*
@@ -111,13 +129,10 @@
     Improved efficiency by introducing
     *constant folding*, *constant propagation*, and *control flow
     optimisations*
-  ][
-    Added support for *classes*, including fields, methods, and constructors,
-    *enabling object-oriented* features in WACC
   ]
 ]
 
-#section("Experience & Leadership")
+#section("Certifications & Leadership")
 #block(inset: 1em, fill: none)[
   #dated_experience(
     "JPMorgan Software Engineering Job Simulation on Forage",

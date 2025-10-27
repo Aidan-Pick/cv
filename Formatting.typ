@@ -7,6 +7,14 @@
   #v(-1.5em)
 ]
 
+#let work_experience(name, date, role) = [
+  #grid(
+    columns: (4fr, 1fr),
+    align(left)[*#name* - #role], align(right)[_ #date _],
+  )
+  #v(-0.5em)
+]
+
 #let dated_experience(name, date) = [
   #grid(
     columns: (4fr, 1fr),
