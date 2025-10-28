@@ -83,6 +83,24 @@
 #section("Projects")
 #block(inset: 1em, fill: none)[
   #dated_project(
+    "Decision Tree Classifier for WiFi Localization",
+    "Python, NumPy, Matplotlib, Machine Learning",
+    "Oct 2024 - Nov 2024",
+  )
+  #list(indent: 1em)[
+    Implemented a *decision tree classifier from scratch* using
+    *entropy-based information gain* for WiFi signal localization
+  ][
+    Optimised split computation with *prefix sum arrays*, reducing
+    complexity  and runtime for large feature spaces
+  ][
+    Built a *custom tree visualisation tool* with *proportional leaf
+    spacing* and colour-coded classifications for analysis
+  ][
+    Designed a *k-fold cross-validation system* to evaluate model
+    performance, computing *precision, recall, and F1 scores*
+  ]
+  #dated_project(
     "SEVA",
     "TypeScript, JavaScript, Supabase, PostgreSQL, React Native, CI/CD, Gitlab Pages, Expo",
     "May 2025 - Jun 2025",
@@ -96,21 +114,21 @@
   ][
     Delivered a *live demo* and UX walkthrough to industry aligned judges, *achieving 88%* for engineering depth and clarity
   ]
-  #dated_project(
-    "PintOS Operating System",
-    "C, GDB, QEMU",
-    "Oct 2024 - Nov 2024",
-  )
-  #list(indent: 1em)[
-    *Designed and implemented a preemptive priority scheduler* with robust *concurrency control* using *semaphores*
-  ][
-    *Optimized memory usage* by implementing *lazy loading* for executables and
-    *read-only page sharing*
-  ][
-    Honed *low-level debugging skills* by effectively locating and debugging problems using *GDB*
-  ][
-    Attained a *project score of 86%* based on functionality, code quality, and design articulation during code reviews
-  ]
+  // #dated_project(
+  //   "PintOS Operating System",
+  //   "C, GDB, QEMU",
+  //   "Oct 2024 - Nov 2024",
+  // )
+  // #list(indent: 1em)[
+  //   *Designed and implemented a preemptive priority scheduler* with robust *concurrency control* using *semaphores*
+  // ][
+  //   *Optimized memory usage* by implementing *lazy loading* for executables and
+  //   *read-only page sharing*
+  // ][
+  //   Honed *low-level debugging skills* by effectively locating and debugging problems using *GDB*
+  // ][
+  //   Attained a *project score of 86%* based on functionality, code quality, and design articulation during code reviews
+  // ]
   #dated_project(
     "WACC Compiler",
     "CI/CD, Scala, x86-64 Assembly, Parsley (Parser-combinator library)",
