@@ -83,13 +83,13 @@
 #section("Projects")
 #block(inset: 1em, fill: none)[
   #dated_project(
-    "Decision Tree Classifier for WiFi Localization",
+    "Decision Tree Classifier for WiFi Localisation",
     "Python, NumPy, Matplotlib, Machine Learning",
-    "Oct 2024 - Nov 2024",
+    "Oct 2025",
   )
   #list(indent: 1em)[
     Implemented a *decision tree classifier from scratch* using
-    *entropy-based information gain* for WiFi signal localization
+    *entropy-based information gain* for WiFi signal localisation
   ][
     Optimised split computation with *prefix sum arrays*, reducing
     complexity  and runtime for large feature spaces
