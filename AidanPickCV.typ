@@ -94,7 +94,7 @@
   ][
     Conducted interviews with *charity coordinators and volunteers*, narrowing down on *pain points* to improve UX
   ][
-    Delivered a *live demo* and UX walkthrough to industry alligned judges, *achieving 88%* for engineering depth and clarity
+    Delivered a *live demo* and UX walkthrough to industry aligned judges, *achieving 88%* for engineering depth and clarity
   ]
   #dated_project(
     "PintOS Operating System",
@@ -102,7 +102,7 @@
     "Oct 2024 - Nov 2024",
   )
   #list(indent: 1em)[
-    *Designed and implemented a preemptive prioity scheduler* with robust *concurrency control* using *semaphores*
+    *Designed and implemented a preemptive priority scheduler* with robust *concurrency control* using *semaphores*
   ][
     *Optimized memory usage* by implementing *lazy loading* for executables and
     *read-only page sharing*
@@ -139,10 +139,10 @@
     "Aug 2025",
   )
   #list(indent: 1em)[
-    Developed a *Spring Boot microservice* to handle fincial data streams,
+    Developed a *Spring Boot microservice* to handle financial data streams,
     processing events with *Kafka* and integrating external *REST APIs*
   ][
-    *Exposed custom REST endpoints* for data retrival and implemented data
+    *Exposed custom REST endpoints* for data retrieval and implemented data
     persistence using *Java Persistence API* (JPA) with a *H2 in-memory
     database*
   ]
